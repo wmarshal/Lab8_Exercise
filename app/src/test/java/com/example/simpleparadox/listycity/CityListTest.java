@@ -52,7 +52,7 @@ class CityListTest {
     void testGetCities() {
         CityList cityList = mockCityList();
 
-        assertEquals(1, mockCity().compareTo(cityList.getCities().get(0)));
+        assertEquals(0, mockCity().compareTo(cityList.getCities().get(0)));
 
         City city = new City("Charlottetown", "Prince Edward Island");
         cityList.add(city);
@@ -93,4 +93,14 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void labExerciseTest() {
+        // the purpose of this test is to see if I can openly make this fail on attempt one and then fix later
+
+        // assertEquals(1,0); here was what I used for the failing test case
+	assertEquals(1,1);
+    
+    }
+	
 }
