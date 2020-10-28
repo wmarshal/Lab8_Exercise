@@ -93,4 +93,13 @@ class CityListTest {
 
         assertEquals(1, cityList.countCities());
     }
+
+    @Test
+    void labExerciseTest() {
+        // the purpose of this test is to see if I can openly make this fail on attempt one and then fix later
+
+	assertEquals(1,0);
+    
+    }
+	
 }
